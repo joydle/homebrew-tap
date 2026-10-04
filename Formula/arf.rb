@@ -2,7 +2,7 @@ class Arf < Formula
   desc "From-scratch LLM inference engine for Apple silicon"
   homepage "https://github.com/joydle/Arf"
   url "https://github.com/joydle/Arf/releases/download/v0.5.0/arf-0.5.0-aarch64-apple-darwin.tar.gz"
-  sha256 "edf2fb94299ed04522e64d353c6172d27bc4ee6bd51a674409815509331ae857"
+  sha256 "7e736fe106b501e23bedf30996446a97bf86fcdee78d894a04f3b42e21bf5a9d"
   license "Apache-2.0"
 
   depends_on arch: :arm64
@@ -14,8 +14,8 @@ class Arf < Formula
 
   def caveats
     <<~EOS
-      Models download into ./models under the directory you run `arf` from;
-      run `arf pull` and `arf serve` from the same place (or pass --dir).
+      Models download into ~/.arf/models (or ./models where that exists);
+      ARF_MODELS_DIR or --dir choose another place.
 
       Quick check:   arf doctor
       Main model:    arf pull qwen3.8:27b && arf serve qwen3.8:27b   (needs ~27 GB free memory)
