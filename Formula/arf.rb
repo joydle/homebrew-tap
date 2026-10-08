@@ -1,8 +1,8 @@
 class Arf < Formula
   desc "From-scratch LLM inference engine for Apple silicon"
   homepage "https://github.com/joydle/Arf"
-  url "https://github.com/joydle/Arf/releases/download/v0.5.9/arf-0.5.9-aarch64-apple-darwin.tar.gz"
-  sha256 "54ebce49325a0352fb0e6582c2c1f5f4a83b3f9ec718de35f81038be44d2cef0"
+  url "https://github.com/joydle/Arf/releases/download/v0.5.11/arf-0.5.11-aarch64-apple-darwin.tar.gz"
+  sha256 "d7a78ee072fb819844e4720011454ccf5e3720342ac8ceaa302a0b3fcc9e3e17"
   license "Apache-2.0"
 
   depends_on arch: :arm64
