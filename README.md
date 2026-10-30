@@ -1,7 +1,22 @@
 # joydle/homebrew-tap
 
-Homebrew formulae for [Arf](https://github.com/joydle/Arf), a from-scratch LLM inference engine for
-Apple silicon.
+Homebrew formulae and casks from Joydle.
+
+## Winch
+
+[Winch](https://getwinch.app) is App Store and Google Play optimization for the Mac, run by your own
+coding agent (Claude Code, Codex, OpenCode, Ollama or OpenRouter).
+
+```sh
+brew install --cask joydle/tap/winch
+```
+
+macOS 13 or later, Apple silicon and Intel. Winch updates itself; a license key activates it
+(getwinch.app).
+
+## Arf
+
+[Arf](https://github.com/joydle/Arf) is a from-scratch LLM inference engine for Apple silicon.
 
 ```sh
 brew install joydle/tap/arf
