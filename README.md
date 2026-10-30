@@ -8,8 +8,12 @@ Homebrew formulae and casks from Joydle.
 coding agent (Claude Code, Codex, OpenCode, Ollama or OpenRouter).
 
 ```sh
+brew trust joydle/tap
 brew install --cask joydle/tap/winch
 ```
+
+Homebrew 7 loads casks from other taps only once you trust them; `brew trust joydle/tap` does that
+for this tap.
 
 macOS 13 or later, Apple silicon and Intel. Winch updates itself; a license key activates it
 (getwinch.app).
@@ -19,6 +23,7 @@ macOS 13 or later, Apple silicon and Intel. Winch updates itself; a license key 
 [Arf](https://github.com/joydle/Arf) is a from-scratch LLM inference engine for Apple silicon.
 
 ```sh
+brew trust joydle/tap
 brew install joydle/tap/arf
 ```
 
