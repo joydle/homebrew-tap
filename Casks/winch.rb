@@ -1,6 +1,6 @@
 cask "winch" do
   version "1.0.0"
-  sha256 "8ab6ada7dfb79334ae97cbaa19863a46772132843cc77cd161b75c6df3cb0e52"
+  sha256 "b6fe9a9f8d46d2fe2514971cea3f51fca69d98563c01277b7dcf9d592af11aee"
 
   url "https://dl.getwinch.app/releases/Winch-#{version}.dmg"
   name "Winch"
